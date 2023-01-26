@@ -1,5 +1,5 @@
 <p align="center">
-	<img alt="banner" title="JhoN banner" src=".github/">
+	<img alt="banner" title="postact spoiler" src=".github/banner.png">
 </p>
 
 <p align="center">
