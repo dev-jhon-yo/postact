@@ -1,0 +1,24 @@
+.ellipse {
+  background: radial-gradient(
+      farthest-side at 5% 5%,
+      var(--blue-500) 5%,
+      black 35%
+    ),
+    radial-gradient(farthest-side at 80% bottom, var(--blue-500) 5%, black 35%);
+}
+
+.wrapper {
+  max-width: 70rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}

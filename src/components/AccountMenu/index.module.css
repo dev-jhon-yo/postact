@@ -1,0 +1,68 @@
+.sidebar {
+  background: var(--gray-500);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+nav {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.account strong {
+  font-size: 0.937rem;
+  letter-spacing: 0.005em;
+  line-height: 1.6;
+}
+
+.account span {
+  font-size: 0.875rem;
+  color: var(--gray-200);
+  letter-spacing: 0.005em;
+  line-height: 1.6;
+}
+
+.sidebar footer {
+  border-top: 1px solid var(--gray-600);
+  margin-top: 1.5rem;
+  padding: 1.5rem 2rem 2rem;
+}
+
+.sidebar footer a {
+  width: 100%;
+  background: transparent;
+  color: var(--green-500);
+  border: 1px solid var(--green-500);
+  border-radius: 8px;
+  height: 50px;
+  padding: 0 1.5rem;
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.5rem;
+
+  transition: color 0.1s, background-color 0.1s;
+}
+
+.sidebar footer a:hover {
+  background: var(--green-500);
+  color: var(--white);
+}
+
+.menu {
+  display: none;
+}
